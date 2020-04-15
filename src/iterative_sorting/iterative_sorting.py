@@ -32,9 +32,9 @@ def bubble_sort( arr ):
         for i in range(len(arr) - 1): 
             print(arr)
 
-        if arr[i] > arr[i+1]: 
-            arr[i], arr[i+1] = arr[i+1], arr[i]
-            swaps_occured = True
+            if arr[i] > arr[i+1]: 
+                arr[i], arr[i+1] = arr[i+1], arr[i]
+                swaps_occured = True
 
     return arr
 
